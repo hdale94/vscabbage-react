@@ -18,12 +18,12 @@ Get form data from Cabbage. This hook listens for updates to form data via Cabba
 
 ### Run project:
 
-yarn run dev
+	yarn run dev
 
 ### Build project:
 
-yarn build
+	yarn build
 
 ### Copy build into plugin folder
 
-cp .\dist\* C:\ProgramData\CabbageAudio\PluginName -Recurse -Force
+	cp ./dist/* C:/ProgramData/CabbageAudio/PluginName -Recurse -Force
