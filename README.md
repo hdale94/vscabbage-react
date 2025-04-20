@@ -1,6 +1,6 @@
 # VSCabbage implementation with React
 
-This example will show you how to synchronize a web UI with Cabbage. The project is made with React + Typescript.
+This example will show you how to synchronize a web UI with Cabbage. The project is made with Vite + React + Typescript.
 
 There are examples of functional components (sliders) that implement the useCabbageState hook to get and set the channel values.
 
