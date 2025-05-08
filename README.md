@@ -4,6 +4,10 @@ This project provides hooks that allow you to synchronize [vscabbage](https://gi
 
 An example of implementation can be found [here](https://github.com/hdale94/vscabbage-react-example).
 
+## Install
+
+    yarn add vscabbage-react
+
 ## Hooks
 
 ### useCabbageState
