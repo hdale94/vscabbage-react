@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Cabbage } from "../cabbage/cabbage";
+import { Cabbage } from "../cabbage/cabbage.js";
 
 /**
  * Custom hook to sync a parameter with Cabbage.

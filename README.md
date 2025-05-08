@@ -1,8 +1,8 @@
-# VSCabbage implementation with React
+# VSCabbage React
 
-This example will show you how to synchronize a web UI with Cabbage. The project is made with Vite + React + Typescript.
+This project provides hooks that allow you to synchronize [vscabbage](https://github.com/rorywalsh/vscabbage) with [React](https://github.com/facebook/react).
 
-There are examples of functional components (sliders) that implement the useCabbageState hook to get and set the channel values.
+An example of implementation can be found [here](https://github.com/hdale94/vscabbage-react-example).
 
 ## Hooks
 
@@ -13,17 +13,3 @@ Sync a parameter with Cabbage. This hook listens for updates to a parameter valu
 ### useGetCabbageFormData
 
 Get form data from Cabbage. This hook listens for updates to form data via Cabbage and updates the local state whenever new data is received.
-
-## Commands
-
-### Run project:
-
-	yarn run dev
-
-### Build project:
-
-	yarn build
-
-### Copy build into plugin folder
-
-	cp ./dist/* C:/ProgramData/CabbageAudio/PluginName -Recurse -Force
